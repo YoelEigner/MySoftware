@@ -1,2 +1,2 @@
-def welcom():
+def welcome():
     print("New Screen")
