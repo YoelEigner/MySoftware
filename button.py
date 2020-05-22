@@ -1,3 +1,3 @@
 def click():
-    pring("click")
+    print("click")
     
