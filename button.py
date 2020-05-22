@@ -1,0 +1,3 @@
+def click():
+    pring("click")
+    
