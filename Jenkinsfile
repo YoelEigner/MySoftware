@@ -2,6 +2,7 @@ properties([pipelineTriggers([pollSCM('* * * * *')])])
 
 node{
   stage("show"){
-      bat "dir"
+    bat '''python -c "click()"'''
+    bat '''python -c "welcome()"'''
   }
 }
