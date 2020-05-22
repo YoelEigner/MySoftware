@@ -2,7 +2,7 @@ properties([pipelineTriggers([pollSCM('* * * * *')])])
 
 node{
   stage("show"){
-    bat '''python -c "import NewButton;click()"'''
-    bat '''python -c "import NewScreen;welcome()"'''
+    bat '''python -c "import button; button.click()"'''
+    bat '''python -c "import screen; screen.welcome()"'''
   }
 }
