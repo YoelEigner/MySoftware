@@ -1,4 +1,4 @@
-properties([pipelineTriggers([cron('*/30 * * * *'), githubPush()])])
+properties([pipelineTriggers([cron('* * * * *')])])
 
 node{
       stage("clone"){
