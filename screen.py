@@ -1,2 +1,2 @@
 def welcome():
-    print("New Screen - new commit")
+    print("New Screen")
