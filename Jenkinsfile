@@ -2,7 +2,7 @@ properties([pipelineTriggers([pollSCM('* * * * *')])])
 
 node{
       stage("clone"){
-        git "https://github.com/YoelEigner/Class_Files.git"
+        git "https://github.com/YoelEigner/MySoftware.git"
     }
     stage("run"){
       bat "dir"
