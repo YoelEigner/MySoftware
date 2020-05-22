@@ -1,2 +1,2 @@
 def click():
-    print("click - testing github -")  
+    print("click")  
